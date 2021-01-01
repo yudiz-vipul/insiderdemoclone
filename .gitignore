@@ -1,0 +1,86 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcuserdata
+*.xcshareddata
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+*.apk
+android/app/release/output.json
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/app/release/output-metadata.json
+android/app/release/app-release.aab
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+# BUCK
+buck-out/
+\.buckd/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+/ios/Podfile.lock
+ios/InsiderDemo.xcodeproj/project.xcworkspace
+ios/InsiderDemo.xcodeproj/xcuserdata
+ios/InsiderDemo.xcodeproj/xcshareddata
+ios/InsiderDemo.xcodeproj/project.xcworkspace/xcuserdata
+ios/InsiderDemo.xcodeproj/project.xcworkspace/ios/InsiderDemo.xcworkspace
+ios/InsiderDemo.xcworkspace/contents.xcworkspacedata
+ios/InsiderDemo.xcworkspace/xcuserdata
+ios/InsiderDemo.xcworkspace
+ios/InsiderDemo.xcworkspace/xcshareddata
+
+
+# VSCode
+.vscode/.react/debuggerWorker.js
+.vscode/.react/index.bundle
+.vscode/.react/index.map
+.vscode/launch.json
+
+# yarn
+yarn.lock
+yarn-error.log
+
+# package
+package-lock.json
+*.hprof
+android/app/debug/output-metadata.json
